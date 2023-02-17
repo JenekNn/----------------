@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+p{
+    border-radius: 10px;
+     text-shadow:2px 0 3px #ebf8e1,3px 0 3px #fcfaa7; 
+     font-family: monospace;
+     line-height: 40px;
+     font-size: 25px;
+     font-weight: 700;
+}
+body{
+    text-align: center;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+img{
+    float: left;
+}
+.img-2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/e/eb/Voroncov_AN.jpg);
+    width: 200px;
+    height: 200px;
+    float: right;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+h1{
+    font-size: 25px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 20px;
+    background:linear-gradient(to right, #F6EFD2, #CEAD78);;
+    float:right;
+    padding: 0 10px 10px 10px;
+    
+}
+a{
+    font-size: 23px;
+    font-family: monospace;
+   float: left;
+}
+h1.underline{
+    text-decoration: underline;
+}

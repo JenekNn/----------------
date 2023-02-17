@@ -1,0 +1,91 @@
+*{
+    -webkit-margin:0;         
+    -moz-margin:0;
+    -o-margin:0;
+    -ms-margin:0;
+    margin: 0;
+    -webkit-padding: 0;
+    -o-padding:0;
+    -ms-padding: 0;
+    -moz-padding:0;
+    padding:0;
+}
+.gl{
+    font-family:monospace;
+    font-size:25px ;
+    margin-left: 0;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    font-weight: 700;
+}
+nav {
+    display: inline;
+    margin: 70px;
+    border: 3px solid rgba(178, 181, 184,0.7);
+    font-size: 20px;
+    font-family:monospace;
+    border-bottom-right-radius: 30px;
+   
+}
+body{
+  background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    background-image: url(IMG_20230207_175931.jpg);
+} 
+select{
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance:none;
+    appearance: none;
+    font-size: 20px;
+    -o-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -ms-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -moz-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -webkit-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    float:right;
+    padding: 0 10px 10px 10px;
+    -ms-border-bottom-left-radius: 30px;
+    -o-border-bottom-left-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+div{
+   position: relative;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border:3px solid white;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: 200px;
+    font-size: xx-large;
+    -o-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -ms-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -moz-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    -webkit-background:linear-gradient(to right, #F6EFD2, #CEAD78);
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    right: 400px;
+    bottom: 100px;
+}
+.Proj{
+    color: yellow;
+}
+.Txt{
+    color:#30313b;
+    
+}
+
+
+
+
+
+
+
+
+

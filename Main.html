@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="Stylesheet" href="Main.css" />
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+  </head>
+  <body>
+    <header>
+      <nav class="gl">Герои-освободители города Костюковичи</nav>
+      <select name=" Список имен" class="names" id="list" onchange="window.location.href = this.options[this.selectedIndex].value">
+        <option value="" onclick=" window.location.href = 'Main.html'"selected  >Главная страница</option>
+        <option value="Margelov_HTML.html" onclick=" window.location.href = 'Margelov_HTML.html'" class="Margelov">Маргелов Василий Филиппович</option>
+        <option value="Skugar_HTML.html" class="Skugar" onclick="window.location.href = 'Skugar_HTML.html'">Скугарь Владимир Антонович</option>
+        <option value="Sudilovskiy_HTML.html" class="Sudilovskiy" onclick="window.location.href = 'Sudilovskiy_HTML.html'">Судиловский Николай Петрович</option>
+        <option value="Vorontsov_HTML.html" class="Vorontsov" onclick="window.location.href = 'Vorontsov_HTML.html'">Воронцов Александр Никифорович</option>
+        <option value="Zinkovich_HTML.html" class="Zinkovich" onclick="window.location.href = 'Zinkovich_HTML.html'">Зинькович Митрофан Иванович</option>
+        <option value="Avchachev_Html.html" class="Avchachev" onclick="window.location.href = 'Avchachev_Html.html'">Авхачев Феодосий Михайлович</option>
+      </select>
+    </header>
+    <main>
+      <div class="Text-block">
+      <p class="Txt"></p>
+    </div>
+    <!-- <a class="Button"><?xml version="1.0" encoding="UTF-8"?>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"><g id="_01_align_center" data-name="01 align center"><path d="M7.412,24,6,22.588l9.881-9.881a1,1,0,0,0,0-1.414L6.017,1.431,7.431.017l9.862,9.862a3,3,0,0,1,0,4.242Z"/></g></svg></a> -->
+    </main>
+    <script>
+      const Txt=document.querySelector('.Txt');
+Txt.innerHTML='...<br>Вякі праляцяць за вякамі,<br>Пазбыўшы вайну назаўжды,<br>I, можа, гранёны мой камень<br>Грудку пазайздросціць тады, —<br>Калі ўжо ні сына, ні мужа<br>Ніхто не пакліча ў бядзе<br>I памяці колкая ружа<br>На зорку яго не ўпадзе;<br>Калі з безназоўных пазіцый<br>Скрозь каскі прабецца імгла,<br>А лес ёй насення пазычыць,<br>А сонца — агню і святла.<br>Я мог бы сасной ці вярбою<br>Шумець паміж дрэў дарагіх...<br><br>Але не згаджацца са мною<br>Ёсць права такое ў жывых.<p style="color:blue;">Ардадзь Куляшоў</p>'
+ </script>
+</body>
+</html>
